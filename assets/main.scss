@@ -1,0 +1,126 @@
+---
+---
+
+// Cores do tema escuro (mesmas do perfil do GitHub)
+$background-color: #0d1117;
+$text-color:       #c9d1d9;
+$brand-color:      #58a6ff;
+$grey-color:       #8b949e;
+$grey-color-light: #30363d;
+$grey-color-dark:  #c9d1d9;
+$content-width:    1100px;
+
+@import "minima";
+
+html {
+  color-scheme: dark;
+  background: #0d1117;
+}
+
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+// Página limpa, sem cabeçalho/rodapé do tema
+.site-header,
+.site-footer {
+  display: none;
+}
+
+.page-content {
+  padding: 24px 0 48px;
+}
+
+a {
+  color: #58a6ff;
+}
+
+a:visited {
+  color: #58a6ff;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #30363d;
+  margin: 32px 0;
+}
+
+code {
+  background: #161b22;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+// Cards dos certificados
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 14px;
+  background: transparent;
+  color: #c9d1d9;
+}
+
+table tr,
+table tr:nth-child(even) {
+  background: transparent;
+}
+
+table td {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+  vertical-align: top;
+}
+
+table td:empty {
+  background: transparent;
+  border-color: transparent;
+}
+
+table td img {
+  border-radius: 6px;
+  border: 1px solid #30363d;
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+table td a:hover img {
+  transform: scale(1.02);
+  border-color: #58a6ff;
+}
+
+table td b {
+  color: #ffffff;
+}
+
+table td sub {
+  color: #8b949e;
+}
+
+// Celular: um certificado por linha
+@media (max-width: 700px) {
+  table, tbody, tr, td {
+    display: block;
+    width: 100% !important;
+  }
+
+  table {
+    border-spacing: 0;
+  }
+
+  table td {
+    margin-bottom: 14px;
+  }
+
+  table td:empty {
+    display: none;
+  }
+}

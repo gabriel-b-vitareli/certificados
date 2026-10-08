@@ -132,11 +132,7 @@ Cursos e certificações que conquistei ao longo da minha jornada.
 
 <div align="center">
 
-<sub>
-
-`MAIS CERTIFICADOS EM BREVE`
-
-</sub>
+<sub><code>MAIS CERTIFICADOS EM BREVE</code></sub>
 
 <br>
 
