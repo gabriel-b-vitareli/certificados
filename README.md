@@ -24,6 +24,16 @@ Cursos e certificações que conquistei ao longo da minha jornada.
 <tr>
 
 <td width="33%" valign="top" align="center">
+<a href="pdf/google-gemini-lab.pdf">
+<img src="img/google-gemini-lab.png" alt="Certificado Gemini Academy para Universitários 2026" width="100%"/>
+</a>
+<br><br>
+<b>Gemini Academy</b>
+<br>
+<sub>Google<br>2h · 27/10/2026</sub>
+</td>
+
+<td width="33%" valign="top" align="center">
 <a href="pdf/anthropic-ai-fluency-capabilities-limitations.pdf">
 <img src="img/anthropic-ai-fluency-capabilities-limitations.png" alt="Certificado AI Fluency: AI Capabilities & Limitations" width="100%"/>
 </a>
